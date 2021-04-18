@@ -97,7 +97,7 @@ if sakums==2:
     print("1. Ja, mana temperatura ir 38-40 gr.")
     print("2. Ja, mana temperatura ir 37 gr.")
     print("3. Ne")
-    tem=int(input))
+    tem=int(input())
     if tem==1: slim2=0+4
     elif tem==2: slim2=0+1
     elif tem==3: slim2=0+0
@@ -107,7 +107,7 @@ if sakums==2:
     print("2. Ne")
     ies=int(input())
     if ies==1: slim2=0+2
-    elif ies==: slim2=0+0
+    elif ies==2: slim2=0+0
     print("")
     print("4. Vai jus zaudejat ozu?")
     print("1.Ja")
@@ -160,16 +160,16 @@ if sakums==2:
     print("Jusu dzimums ir...")
     print("1. sieviesu")
     print("2. viriesu")
-    dzimums=int(input))
+    dzimums=int(input())
     if dzimums==1:
-       print("")
-       print("Vai jums sobrid ir menesreizes/ driz saksies?")
-       print("1.Ja")
-       print("2. Ne")
-       men=int(input())
-       if men==1: slim2=0-4
-       elif men==2: slim2=0+0
-       else: print("nav tadas atbildes")
+        print("")
+        print("Vai jums sobrid ir menesreizes/ driz saksies?")
+        print("1.Ja")
+        print("2. Ne")
+        men=int(input())
+        if men==1: slim2=0-4
+        elif men==2: slim2=0+0
+        else: print("nav tadas atbildes")
     if slim2==0: print("Jums nav par ko uztraukties!")
     elif 0<slim2<=12: print("Palieciet gulta un noverojiet savu veselibu, ja nejutaties labak, apmeklejiet arstu.")
     elif 12<slim2<=24: print("Jums ir obligati jaapmekle artsts!")
